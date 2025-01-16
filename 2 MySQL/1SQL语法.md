@@ -299,9 +299,7 @@ FROM `表名`;
 
 **CONCAT**函数
 
- ![image-20240716143900879](1SQL%E8%AF%AD%E6%B3%95.assets/image-20240716143900879.png)
-
-
+![image-20240716143900879](.assets/image-20240716143900879.png)
 
 **DISTINCT** 去重
 
