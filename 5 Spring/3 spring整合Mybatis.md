@@ -16,11 +16,11 @@ Spring提供了`SqlSessionFactoryBean，MapperScannerConfigure` 来整合Mybatis
 
 **Service** 层，用于处理业务逻辑，它**与 DAO 层交互**，调用 DAO 方法来获取或保存数据，同时处理业务规则，确保数据的有效性、完整性和安全性。Service 层将复杂的业务逻辑集中在一处，使控制层无需直接操作数据库，保持代码的可维护性。
 
-![image-20241029172712643](D:\md_image\image-20241029172712643.png)
+![image-20241029172712643](.assets/image-20241029172712643.png)
 
-![image-20241030103803632](D:\md_image\image-20241030103803632.png)
+![image-20241030103803632](.assets/image-20241030103803632.png)
 
-![image-20241121202446237](D:\md_image\image-20241121202446237.png)
+![image-20241121202446237](.assets/image-20241121202446237.png)
 
 > 在 MyBatis 的配置类 `MyBatisConfig` 中定义映射配置（mapping configuration）的主要作用是对 **数据库表与 Java 实体类之间的映射关系** 进行配置和管理。这些映射配置使得开发者可以通过 MyBatis 框架高效地完成数据库操作，而无需手写大量的 SQL 语句。
 
@@ -28,9 +28,9 @@ Spring提供了`SqlSessionFactoryBean，MapperScannerConfigure` 来整合Mybatis
 
 # spring整合Junit
 
- ![image-20241030105047030](D:\md_image\image-20241030105047030.png)
+ ![image-20241030105047030](.assets/image-20241030105047030.png)
 
-![image-20241030105109605](D:\md_image\image-20241030105109605.png)
+![image-20241030105109605](.assets/image-20241030105109605.png)
 
 1. 设定专用的类运行器
 2. 指定spring上下文的配置类

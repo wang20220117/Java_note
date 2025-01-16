@@ -1,32 +1,32 @@
- ![image-20241126214830252](D:\md_image\image-20241126214830252.png)
+ ![image-20241126214830252](.assets/image-20241126214830252.png)
 
-![image-20241126214950402](D:\md_image\image-20241126214950402.png)
+![image-20241126214950402](.assets/image-20241126214950402.png)
 
 ​																																																				
 
 # Jedis
 
-![image-20241127103617272](D:\md_image\image-20241127103617272.png)
+![image-20241127103617272](.assets/image-20241127103617272.png)
 
- ![image-20241127103631290](D:\md_image\image-20241127103631290.png)
+ ![image-20241127103631290](.assets/image-20241127103631290.png)
 
 # Jedis的连接池
 
-![image-20241127103745962](D:\md_image\image-20241127103745962.png)
+![image-20241127103745962](.assets/image-20241127103745962.png)
 
 
 
 # SpringDataRedis
 
-![image-20241127105803425](D:\md_image\image-20241127105803425.png)
+![image-20241127105803425](.assets/image-20241127105803425.png)
 
 把不同数据类型封装到了对象中：
 
-![image-20241127110130557](D:\md_image\image-20241127110130557.png)
+![image-20241127110130557](.assets/image-20241127110130557.png)
 
 
 
-![image-20241127111924276](D:\md_image\image-20241127111924276.png)
+![image-20241127111924276](.assets/image-20241127111924276.png)
 
 ```yaml
 # yml文件中配置Redis信息
@@ -66,17 +66,17 @@ class SpringdataredisDemoApplicationTests {
 }
 ```
 
-![image-20241127112419319](D:\md_image\image-20241127112419319.png)
+![image-20241127112419319](.assets/image-20241127112419319.png)
 
-打印：![image-20241127112440688](D:\md_image\image-20241127112440688.png)
+打印：![image-20241127112440688](.assets/image-20241127112440688.png)
 
 
 
 ## 序列化问题
 
-![image-20241127141331730](D:\md_image\image-20241127141331730.png)
+![image-20241127141331730](.assets/image-20241127141331730.png)
 
-![image-20241127142053179](D:\md_image\image-20241127142053179.png)
+![image-20241127142053179](.assets/image-20241127142053179.png)
 
 写一个配置类：
 
@@ -113,12 +113,12 @@ public class RedisConfig {
 
 ## StringRedisTemplate
 
-![image-20241127145648638](D:\md_image\image-20241127145648638.png)
+![image-20241127145648638](.assets/image-20241127145648638.png)
 
-![image-20241127145822780](D:\md_image\image-20241127145822780.png)
+![image-20241127145822780](.assets/image-20241127145822780.png)
 
 
 
-![image-20241127150205206](D:\md_image\image-20241127150205206.png)
+![image-20241127150205206](.assets/image-20241127150205206.png)
 
-![image-20241127151826605](D:\md_image\image-20241127151826605.png)
+![image-20241127151826605](.assets/image-20241127151826605.png)

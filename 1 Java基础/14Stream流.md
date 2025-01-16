@@ -4,13 +4,13 @@
 
 # Stream 流
 
-![image-20240620151105374](D:\md_image\image-20240620151105374.png)
+![image-20240620151105374](.assets/image-20240620151105374-173702130379447-17370266130611.png)
 
-![image-20240620151121379](D:\md_image\image-20240620151121379.png)
+![image-20240620151121379](.assets/image-20240620151121379.png)
 
 ## 1 得到一条Stream流
 
-![image-20240620151250132](D:\md_image\image-20240620151250132.png)
+![image-20240620151250132](.assets/image-20240620151250132.png)
 
 
 
@@ -48,11 +48,11 @@
 
 **Stream接口中静态方法`of`的细节：**
 
-<img src="D:\md_image\image-20240620153746803.png" alt="image-20240620153746803" style="zoom: 67%;" />
+<img src=".assets/image-20240620153746803.png" alt="image-20240620153746803" style="zoom: 67%;" />
 
 ## 2 Stream流的中间方法
 
-![image-20240620154036513](D:\md_image\image-20240620154036513.png)
+![image-20240620154036513](.assets/image-20240620154036513.png)
 
 `filter方法` 中重写Predicate 接口中的test方法。
 
@@ -92,15 +92,15 @@ public class StreamDemo2 {
 
 ## 3 Stream 终结方法
 
-![image-20240620161150029](D:\md_image\image-20240620161150029.png)
+![image-20240620161150029](.assets/image-20240620161150029.png)
 
 **toArray() 方法：收集流中数据到数组**
 
-![image-20240620161817451](D:\md_image\image-20240620161817451.png)
+![image-20240620161817451](.assets/image-20240620161817451.png)
 
 **collect()：收集流中数据到集合**
 
-<img src="D:\md_image\image-20240620162423143.png" alt="image-20240620162423143" style="zoom: 67%;" />
+<img src=".assets/image-20240620162423143.png" alt="image-20240620162423143" style="zoom: 67%;" />
 
 收集到List和Set有什么区别：收集到Set，**无序去重**
 
@@ -151,7 +151,7 @@ public class StreamDemo3 {
 
 
 
-![image-20240620195626809](D:\md_image\image-20240620195626809.png)
+![image-20240620195626809](.assets/image-20240620195626809.png)
 
 
 

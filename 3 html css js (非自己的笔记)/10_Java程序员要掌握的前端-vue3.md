@@ -622,11 +622,11 @@ npm run dev
 
 推荐采用微软的 VSCode 作为开发工具，到它的官网 [Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/) 下载安装即可
 
-![image-20220911090418621](D:\2022.js\imgs\image-20220911090418621.png)
+![image-20220911090418621](.assets/image-20220911090418621-17370282730423.png)
 
 要对 *.vue 做语法支持，还要安装一个 Volar 插件
 
-![image-20220911090756694](D:\2022.js\imgs\image-20220911090756694.png)
+![image-20220911090756694](.assets/image-20220911090756694.png)
 
 
 
@@ -634,7 +634,7 @@ npm run dev
 
 * devtools 插件网址：https://devtools.vuejs.org/guide/installation.html
 
-![image-20220815141648040](D:\2022.js\imgs\image-20220815141648040.png)
+![image-20220815141648040](.assets/image-20220815141648040-17370282914044.png)
 
 
 
@@ -805,7 +805,7 @@ createApp(E0).mount('#app')
 
 打开浏览器控制台，进入 Vue 的开发工具，尝试做如下修改
 
-![image-20220906141650435](D:\2022.js\imgs\image-20220906141650435.png)
+![image-20220906141650435](.assets/image-20220906141650435.png)
 
 当把 msg 的值由 "Hello, World" 改为 "你好" 时，会发现页面展示同步发生了变化
 
@@ -2535,9 +2535,9 @@ A5 是根组件，不必在 router 中定义，但需要在其中定义 router-v
 
 效果如下
 
-![image-20220926145812121](D:\2022.js\imgs\image-20220926145812121.png)
+![image-20220926145812121](.assets/image-20220926145812121.png)
 
-![image-20220926145959690](D:\2022.js\imgs\image-20220926145959690.png)
+![image-20220926145959690](.assets/image-20220926145959690.png)
 
 
 
@@ -2567,7 +2567,7 @@ const routes = [
 
 如果希望再嵌套更深层次的路由跳转，例如：希望在 A53 组件内再进行路由跳转
 
-![image-20220926150819624](D:\2022.js\imgs\image-20220926150819624.png)
+![image-20220926150819624](.assets/image-20220926150819624.png)
 
 首先，修改 A53.vue
 
@@ -2608,11 +2608,11 @@ const routes = [
 
 将来访问 /a3/student 时，效果为
 
-![image-20220926151216217](D:\2022.js\imgs\image-20220926151216217.png)
+![image-20220926151216217](.assets/image-20220926151216217.png)
 
 访问 /a3/teacher 时，效果为
 
-![image-20220926151249403](D:\2022.js\imgs\image-20220926151249403.png)
+![image-20220926151249403](.assets/image-20220926151249403.png)
 
 
 
@@ -3229,7 +3229,7 @@ import { serverMenus } from '../router/a6router'
 
 需求：在组件 p1 里更新了数据，主页组件也同步更新显示
 
-![image-20220930172635166](D:\2022.js\imgs\image-20220930172635166.png)
+![image-20220930172635166](.assets/image-20220930172635166.png)
 
 * storage 虽然可以实现多个组件的数据共享，但是需要【主动访问】才能获取更新后的数据
 * 本例中由于没有涉及主页组件的 mounted 操作，因此并不会【主动】获取 storage 的数据 

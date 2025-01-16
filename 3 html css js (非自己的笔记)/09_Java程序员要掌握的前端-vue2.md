@@ -20,25 +20,25 @@ vue ui
 
 使用图形向导来创建 vue 项目，如下图，输入项目名
 
-![image-20220815141136895](D:\2022.js\imgs\image-20220815141136895.png)
+![image-20220815141136895](.assets/image-20220815141136895.png)
 
 选择手动配置项目
 
-![image-20220815141312244](D:\2022.js\imgs\image-20220815141312244.png)
+![image-20220815141312244](.assets/image-20220815141312244.png)
 
 添加 vue router 和 vuex
 
-![image-20220815141412380](D:\2022.js\imgs\image-20220815141412380.png)
+![image-20220815141412380](.assets/image-20220815141412380.png)
 
 选择版本，创建项目
 
-![image-20220815141459878](D:\2022.js\imgs\image-20220815141459878.png)
+![image-20220815141459878](.assets/image-20220815141459878.png)
 
 #### 安装 devtools
 
 * devtools 插件网址：https://devtools.vuejs.org/guide/installation.html
 
-![image-20220815141648040](D:\2022.js\imgs\image-20220815141648040.png)
+![image-20220815141648040](.assets/image-20220815141648040.png)
 
 #### 运行项目
 
@@ -2234,7 +2234,7 @@ export const asyncRoutes = [
 
 它对应的是我们之前介绍的 Container.vue 完成主页布局的，路由路径是 /
 
-![image-20220827194047788](D:\2022.js\imgs\image-20220827194047788.png)
+![image-20220827194047788](.assets/image-20220827194047788.png)
 
 其中又由多部分组成，其中固定不变的是
 

@@ -33,7 +33,7 @@ npm start
 
 * 会自动打开浏览器，默认监听 3000 端口
 
-![image-20221001110328233](D:\2022.js\imgs\image-20221001110328233.png)
+![image-20221001110328233](.assets/image-20221001110328233.png)
 
 
 
@@ -55,13 +55,13 @@ PORT=7070
 
 插件地址 [New React Developer Tools – React Blog (reactjs.org)](https://reactjs.org/blog/2015/09/02/new-react-developer-tools.html#installation)
 
-![image-20221004105110150](D:\2022.js\imgs\image-20221004105110150.png)
+![image-20221004105110150](.assets/image-20221004105110150.png)
 
 #### VSCode
 
 推荐安装 Prettier 代码格式化插件
 
-![image-20221004090816142](D:\2022.js\imgs\image-20221004090816142.png)
+![image-20221004090816142](.assets/image-20221004090816142.png)
 
 
 
@@ -564,7 +564,7 @@ export default function P4({ id }: { id: number }) {
 
 当属性变化时，会重新触发 P4 组件执行，例如将 id 从 1 修改为 2
 
-![image-20221005160308705](D:\2022.js\imgs\image-20221005160308705.png)
+![image-20221005160308705](.assets/image-20221005160308705.png)
 
 执行流程
 
@@ -702,15 +702,15 @@ function P5(props: { id: number }) {
 
 首次使用 useState，用它的参数初始化 State
 
-![image-20221005173958351](D:\2022.js\imgs\image-20221005173958351.png)
+![image-20221005173958351](.assets/image-20221005173958351.png)
 
 2s 后数据更新，setStudent 函数会更新 State 数据，并会触发下一次渲染（P5 的调用）
 
-![image-20221005174347981](D:\2022.js\imgs\image-20221005174347981.png)
+![image-20221005174347981](.assets/image-20221005174347981.png)
 
 再次调用 useState，这时返回更新后的数据
 
-![image-20221005174739593](D:\2022.js\imgs\image-20221005174739593.png)
+![image-20221005174739593](.assets/image-20221005174739593.png)
 
 这时再返回 jsx，内容就是 `姓名是：宋远桥` 了
 
@@ -722,19 +722,19 @@ function P5(props: { id: number }) {
 
 问题还未结束，第二次 P5 调用时，updateStudent 还会执行，结果会导致 2s 后响应返回继续调用 setStudent，这会导致每隔 2s 调用一次 P5 函数（渲染一次）
 
-![image-20221005175440228](D:\2022.js\imgs\image-20221005175440228.png)
+![image-20221005175440228](.assets/image-20221005175440228.png)
 
 如何让 updateStudent 只执行一次呢？一种土办法是再设置一个布尔 State 
 
-![image-20221005181042078](D:\2022.js\imgs\image-20221005181042078.png)
+![image-20221005181042078](.assets/image-20221005181042078.png)
 
 接下来数据更新
 
-![image-20221005181428984](D:\2022.js\imgs\image-20221005181428984.png)
+![image-20221005181428984](.assets/image-20221005181428984.png)
 
 第二次进入 P5 函数时，由于 fetch 条件不成立，因此不会再执行两个 setXXX 方法
 
-![image-20221005182505908](D:\2022.js\imgs\image-20221005182505908.png)
+![image-20221005182505908](.assets/image-20221005182505908.png)
 
 
 
@@ -1994,7 +1994,7 @@ export default function A3() {
 
 需求，组件0 改变了数据，其它组件也想获得改变后的数据，如图所示
 
-![image-20221025104453534](D:\2022.js\imgs\image-20221025104453534.png)
+![image-20221025104453534](.assets/image-20221025104453534.png)
 
 这种多个组件之间要共享状态数据，useState 就不够用了，useContext 也不好用了
 
@@ -2031,7 +2031,7 @@ npm install mobx mobx-react-lite
 
 #### 名词
 
-![Action, State, View](https://mobx.js.org/assets/action-state-view.png)
+![Action, State, View](11_Java%E7%A8%8B%E5%BA%8F%E5%91%98%E8%A6%81%E6%8E%8C%E6%8F%A1%E7%9A%84%E5%89%8D%E7%AB%AF-react.assets/action-state-view.png)
 
 * Actions 用来修改状态数据的方法
 * Observable state 状态数据，可观察
@@ -2760,7 +2760,7 @@ export default observer(A8Main)
 
 ctrl+shift+p 输入关键词**代码**
 
-![image-20221026102533928](D:\2022.js\imgs\image-20221026102533928.png)
+![image-20221026102533928](.assets/image-20221026102533928-17370284673575.png)
 
 定义 fun.code-snippets
 

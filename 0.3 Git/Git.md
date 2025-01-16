@@ -12,11 +12,11 @@
 
 工作区域：
 
-<img src="D:\md_image\image-20241124164010794.png" alt="image-20241124164010794" style="zoom: 80%;" />
+<img src=".assets/image-20241124164010794-173702055924737.png" alt="image-20241124164010794" style="zoom: 80%;" />
 
 文件状态：
 
-![image-20241124164222521](D:\md_image\image-20241124164222521.png)
+![image-20241124164222521](.assets/image-20241124164222521-173702056311838.png)
 
 
 
@@ -42,7 +42,7 @@ git log --oneline	//简单的提交记录
 git ls-files  //列出暂存区的文件（已追踪的文件）
 ```
 
-<img src="D:\md_image\image-20241124171728811.png" alt="image-20241124171728811" style="zoom:80%;" />
+<img src=".assets/image-20241124171728811-173702056577139.png" alt="image-20241124171728811" style="zoom:80%;" />
 
 
 
@@ -50,7 +50,7 @@ git ls-files  //列出暂存区的文件（已追踪的文件）
 
 # 回退版本
 
- ![image-20241124171958253](D:\md_image\image-20241124171958253.png)
+ ![image-20241124171958253](.assets/image-20241124171958253-173702056767540.png)
 
 
 
@@ -97,11 +97,11 @@ git diff --cached  //暂存区和版本库的差异
 
 将想忽略文件的文件名加入到.gitignore中。
 
-<img src="D:\md_image\image-20241125100758243.png" alt="image-20241125100758243" style="zoom:80%;" />
+<img src=".assets/image-20241125100758243-173702056960141.png" alt="image-20241125100758243" style="zoom:80%;" />
 
- ![image-20241125100909023](D:\md_image\image-20241125100909023.png)
+ ![image-20241125100909023](.assets/image-20241125100909023-173702057078642.png)
 
- ![image-20241125100931469](D:\md_image\image-20241125100931469.png)
+ ![image-20241125100931469](.assets/image-20241125100931469-173702057296643.png)
 
 
 
@@ -115,15 +115,15 @@ git diff --cached  //暂存区和版本库的差异
 
 # 远程仓库->本地仓库
 
-<img src="D:\md_image\image-20241125103352996.png" alt="image-20241125103352996" style="zoom:80%;" />
+<img src=".assets/image-20241125103352996-173702057431044.png" alt="image-20241125103352996" style="zoom:80%;" />
 
-<img src="D:\md_image\image-20241125103440801.png" alt="image-20241125103440801" style="zoom:80%;" />
+<img src=".assets/image-20241125103440801-173702057554345.png" alt="image-20241125103440801" style="zoom:80%;" />
 
 
 
 # 本地仓库->远程仓库
 
- ![image-20241125104455247](D:\md_image\image-20241125104455247.png)
+ ![image-20241125104455247](.assets/image-20241125104455247-173702058400446.png)
 
 ```shell
 git push -u origin master:main
@@ -149,7 +149,7 @@ git push -u origin main
 
 ## 分支
 
-![image-20241125105837960](D:\md_image\image-20241125105837960.png)
+![image-20241125105837960](.assets/image-20241125105837960.png)
 
 为了避免分支名和文件名冲突，导致该命令歧义。所以提供了一个新命令来切换分支：
 
@@ -159,7 +159,7 @@ git switch 分支名
 git branch -d     //删除分支
 ```
 
- ![image-20241125143001252](D:\md_image\image-20241125143001252.png)
+ ![image-20241125143001252](.assets/image-20241125143001252.png)
 
 
 
@@ -169,11 +169,11 @@ git branch -d     //删除分支
 
 # 解决合并冲突
 
-<img src="D:\md_image\image-20241125151030634.png" alt="image-20241125151030634" style="zoom:80%;" />
+<img src=".assets/image-20241125151030634.png" alt="image-20241125151030634" style="zoom:80%;" />
 
-<img src="D:\md_image\image-20241125152423790.png" alt="image-20241125152423790" style="zoom:80%;" />
+<img src=".assets/image-20241125152423790.png" alt="image-20241125152423790" style="zoom:80%;" />
 
-![image-20241125152504762](D:\md_image\image-20241125152504762.png)
+![image-20241125152504762](.assets/image-20241125152504762.png)
 
 一般不会在公共的分支上执行rebase操作。
 

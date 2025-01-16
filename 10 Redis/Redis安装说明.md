@@ -26,11 +26,11 @@ yum install -y gcc tcl
 
 然后将课前资料提供的Redis安装包上传到虚拟机的任意目录：
 
-​																																																																																		![image-20211211071712536](assets/image-20211211071712536.png)
+​																																																																																		![image-20211211071712536](.assets/image-20211211071712536.png)
 
 例如，我放到了/usr/local/src 目录：
 
-![image-20211211080151539](assets/image-20211211080151539.png)
+![image-20211211080151539](.assets/image-20211211080151539.png)
 
 解压缩：
 
@@ -40,7 +40,7 @@ tar -xzf redis-6.2.6.tar.gz
 
 解压后：
 
-![image-20211211080339076](assets/image-20211211080339076.png)
+![image-20211211080339076](.assets/image-20211211080339076.png)
 
 进入redis目录：
 
@@ -62,7 +62,7 @@ make && make install
 
 默认的安装路径是在 `/usr/local/bin`目录下：
 
-![image-20211211080603710](assets/image-20211211080603710.png)
+![image-20211211080603710](.assets/image-20211211080603710.png)
 
 该目录以及默认配置到环境变量，因此可以在任意目录下运行这些命令。其中：
 
@@ -92,7 +92,7 @@ redis-server
 
 如图：
 
-![image-20211211081716167](assets/image-20211211081716167.png)
+![image-20211211081716167](.assets/image-20211211081716167.png)
 
 
 
@@ -104,7 +104,7 @@ redis-server
 
 如果要让Redis以`后台`方式启动，则必须修改Redis配置文件，就在我们之前解压的redis安装包下（`/usr/local/src/redis-6.2.6`），名字叫redis.conf：
 
-![image-20211211082225509](assets/image-20211211082225509.png)
+![image-20211211082225509](.assets/image-20211211082225509.png)
 
 我们先将这个配置文件备份一份：
 
@@ -254,7 +254,7 @@ redis-cli [options] [commonds]
 
 不指定commond时，会进入`redis-cli`的交互控制台：
 
-![image-20211211110439353](assets/image-20211211110439353.png)
+![image-20211211110439353](.assets/image-20211211110439353.png)
 
 
 
@@ -268,27 +268,27 @@ GitHub上的大神编写了Redis的图形化桌面客户端，地址：https://g
 
 在下面这个仓库可以找到安装包：https://github.com/lework/RedisDesktopManager-Windows/releases
 
-![image-20211211111351885](assets/image-20211211111351885.png)
+![image-20211211111351885](.assets/image-20211211111351885.png)
 
 ### 2.2.1.安装
 
 在课前资料中可以找到Redis的图形化桌面客户端：
 
-![image-20211214154938770](assets/image-20211214154938770.png)
+![image-20211214154938770](.assets/image-20211214154938770.png)
 
 解压缩后，运行安装程序即可安装：
 
-![image-20211214155123841](assets/image-20211214155123841.png)
+![image-20211214155123841](.assets/image-20211214155123841.png)
 
 此处略。
 
 安装完成后，在安装目录下找到rdm.exe文件：
 
-![image-20211211110935819](assets/image-20211211110935819.png)
+![image-20211211110935819](.assets/image-20211211110935819.png)
 
 双击即可运行：
 
-![image-20211214155406692](assets/image-20211214155406692.png)
+![image-20211214155406692](.assets/image-20211214155406692.png)
 
 
 
@@ -296,19 +296,19 @@ GitHub上的大神编写了Redis的图形化桌面客户端，地址：https://g
 
 点击左上角的`连接到Redis服务器`按钮：
 
-![image-20211214155424842](assets/image-20211214155424842.png)
+![image-20211214155424842](.assets/image-20211214155424842.png)
 
 在弹出的窗口中填写Redis服务信息：
 
-![image-20211211111614483](assets/image-20211211111614483.png)
+![image-20211211111614483](.assets/image-20211211111614483.png)
 
 点击确定后，在左侧菜单会出现这个链接：
 
-![image-20211214155804523](assets/image-20211214155804523.png)
+![image-20211214155804523](.assets/image-20211214155804523.png)
 
 点击即可建立连接了：
 
-![image-20211214155849495](assets/image-20211214155849495.png)
+![image-20211214155849495](.assets/image-20211214155849495.png)
 
 Redis默认有16个仓库，编号从0至15.  通过配置文件可以设置仓库数量，但是不超过16，并且不能自定义仓库名称。
 

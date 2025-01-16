@@ -20,7 +20,7 @@ XML 被设计用来传输和存储数据，不用于表现和展示数据，HTML
 
 **maven目录：**
 
- ![image-20240828111003248](D:\md_image\image-20240828111003248.png)
+ ![image-20240828111003248](.assets/image-20240828111003248.png)
 
 
 
@@ -43,7 +43,7 @@ POM（Project Object Model）是 Maven 项目的核心文件，通常命名为 `
 
 web工程：
 
- ![image-20240918174322763](D:\md_image\image-20240918174322763.png)
+ ![image-20240918174322763](.assets/image-20240918174322763.png)
 
 
 

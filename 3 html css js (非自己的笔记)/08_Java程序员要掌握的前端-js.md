@@ -1644,11 +1644,11 @@ node main.js
 
 初步效果
 
-![image-20220812103323220](D:\2022.js\imgs\image-20220812103323220.png)
+![image-20220812103323220](.assets/image-20220812103323220.png)
 
 架构
 
-![image-20220812103219916](D:\2022.js\imgs\image-20220812103219916.png)
+![image-20220812103219916](.assets/image-20220812103219916.png)
 
 * 前端只有静态页面，使用 Express 服务器
 * 后端使用 Tomcat 服务器，通过 SpringBoot、MyBatis 等框架获取数据库数据
@@ -1759,15 +1759,15 @@ document.querySelector('.title').innerHTML = '侠客列表'
 
 效果
 
-![image-20220812161003958](D:\2022.js\imgs\image-20220812161003958.png)
+![image-20220812161003958](.assets/image-20220812161003958.png)
 
 innerHTML  会解析内容中的标签，例如
 
-![image-20220812161137912](D:\2022.js\imgs\image-20220812161137912.png)
+![image-20220812161137912](.assets/image-20220812161137912.png)
 
 textContext 不会解析内容中的标签
 
-![image-20220812161341825](D:\2022.js\imgs\image-20220812161341825.png)
+![image-20220812161341825](.assets/image-20220812161341825.png)
 
 给 innerHTML 或 textContent 赋值空串，可以实现清空标签内容的效果
 
@@ -1946,7 +1946,7 @@ Promise
 
 ##### 跨域问题
 
-![image-20220814105448882](D:\2022.js\imgs\image-20220814105448882.png)
+![image-20220814105448882](.assets/image-20220814105448882.png)
 
 * 只要协议、主机、端口之一不同，就不同源，例如
   * http://localhost:7070/a 和 https://localhost:7070/b 就不同源
@@ -1960,7 +1960,7 @@ Promise
 
 请求响应头解决
 
-![image-20220814144040703](D:\2022.js\imgs\image-20220814144040703.png)
+![image-20220814144040703](.assets/image-20220814144040703.png)
 
 * fetch 请求跨域，会携带一个 Origin 头，代表【发请求的资源源自何处】，目标通过它就能辨别是否发生跨域
   * 我们的例子中：student.html 发送 fetch 请求，告诉 tomcat，我源自 localhost:7070
@@ -1971,7 +1971,7 @@ Promise
 
 代理解决
 
-![image-20220814161532141](D:\2022.js\imgs\image-20220814161532141.png)
+![image-20220814161532141](.assets/image-20220814161532141.png)
 
 ```cmd
 npm install http-proxy-middleware --save-dev
