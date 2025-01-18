@@ -61,18 +61,64 @@ git push -u origin master  # 推送到远程仓库的master分支
 
 # 拉取远程仓库的更新
 
+**git pull**
+
 当其他人在远程仓库中进行提交时，你可以拉取（pull）最新的更改：
 
 ```sh
 git pull origin master  # 拉取远程仓库的master分支更新
 ```
 
+- 相当于执行 `git fetch` 后再执行 `git merge`，即它会下载远程更新并自动将其合并到当前分支。
+- 如果没有冲突，合并会直接完成，可能会导致你的工作分支发生变化。
+- `git pull` 也有一个变种 `git pull --rebase`，可以使用 rebase 代替 merge 来整合远程更新。
+
+**使用场景**：你希望将远程仓库的最新更改直接合并到当前分支。
 
 
-获取远程仓库分支的变化，但不会合并到本地仓库分支。
 
-```sh
+**git fetch**
+
+1. 获取远程仓库分支的变化，但不会合并到本地仓库分支。
+
+```bash
 git fetch origin <branch-name>
+```
+
+2. **查看远程追踪分支的更新：**
+
+```bash
+git log HEAD..origin/master
+```
+
+`HEAD..origin/master` 是 Git 中用来指定提交范围的语法。
+
+表示从 `HEAD` 到 `origin/master` 的提交。它会列出所有在 `origin/master` 中，当前分支还没有的提交。
+
+3. **合并远程更新到当前分支:**
+
+```bash
+git merge origin/master
+```
+
+or
+
+```bash
+git rebase origin/master
+```
+
+4. 解决冲突（如果有）: 手动修改冲突文件，然后执行：
+
+```bash
+git add <冲突文件>
+git merge --continue  # 如果是 merge
+git rebase --continue  # 如果是 rebase
+```
+
+5. **推送更新（如果需要）**： 如果你已经将远程的更新合并到本地并且需要将你的本地更改推送到远程仓库，可以执行：
+
+```bash
+git push
 ```
 
 
