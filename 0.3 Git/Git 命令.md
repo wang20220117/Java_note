@@ -50,12 +50,12 @@ git remote add origin https://github.com/yourusername/yourrepository.git
 # 推送更改到远程仓库
 
 ```sh
-git push origin master  # 推送到远程仓库的master分支
+git push -u origin master  # 推送到远程仓库的master分支
 ```
 
 如果是推送到其他分支，替换`master`为你要推送的分支名称。
 
-如果你之后不指定分支，直接使用 `git push`，Git 会推送当前本地分支到与之对应的远程分支（通常是同名的分支）。
+-u 是将`origin master`设置为上游分支。如果你之后不指定分支，直接使用 `git push`，Git 会推送当前本地分支到与之对应的远程分支。
 
 
 
