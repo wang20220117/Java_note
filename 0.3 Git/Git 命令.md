@@ -222,3 +222,22 @@ git reset --mixed #(默认)会将 HEAD 指针移动到指定的 <commit-hash>，
 6. **审查并合并 PR**：在 GitHub 上审查并合并
 
 7. **拉取更新**：`git pull origin master` 更新本地仓库
+
+
+
+# 将文件从Git的跟踪中移除
+
+**检查文件是否被跟踪**：
+
+```bash
+git ls-files  # 显示的文件都是已经被git跟踪的
+```
+
+
+
+如果该文件夹或其中的文件已经被 Git 跟踪，你需要使用 `git rm --cached` 命令将其从 Git 的跟踪中移除。执行以下命令：
+
+```bash
+git rm -r --cached "文件名"
+```
+
